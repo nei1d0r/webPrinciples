@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Neil Davis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../Styles/hangman.css" />
+</head>
+<body>
+    <section id="section1">
+        <div id="header">
+            <h1>Hangman!</h1>
+        </div>
+        <div id="body">
+                <h1>Rules</h1>
+                <p class='rules'>Hangman’s rules are quite simple: guess letters to try to come up with an unknown word before a given number of turns are used up. Variations on these rules include things like the number of turns allowed, usually based on the drawing of the hanged character, and the category of the answer.</p>
+                <button onClick='startGame()' autofocus>Start Game</button>
+        </div>
+        <div id="footer">
+            <h3>Guesses: <span id="guessesSoFar">0</span></h3>
+            <section>
+                <h1 id="winner"></h1>
+                <h3 id="badLetters"></h3>
+                <div id="clue"></div>
+            </section>
+        </div>  
+    </section>   
+    <script src="../Scripts/hangman.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+</body>
+</html>
