@@ -1,5 +1,5 @@
 body{
-    background: lightpink;
+    background: #ffb6c1;
     height: 100%;
 }
 #section1{
@@ -22,8 +22,8 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: lightskyblue;
-    background-image: url("https://cdn.pixabay.com/photo/2013/07/13/14/01/antarctic-161969_960_720.png");
+    background: #87cefa;
+    background-image: url("../Images/antarctic.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -47,6 +47,7 @@ body{
     background: white;
     border-bottom: #444 2px;
 }
+
 #body form{    
     display: inline-block;
 }
@@ -54,7 +55,7 @@ body{
     width: 100%;
     height: auto;
     text-align: center;
-    background: lightyellow;
+    background: #ffffe0;
 }
 #body input{
     font-size: 2.2em;

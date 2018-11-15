@@ -1,0 +1,102 @@
+@media screen and (max-width: 540px) {
+	.header h1{
+		font-size: 11vw;
+	}
+  }
+
+body { 
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: #c8b7b7;
+  background: url("../Images/MoonLandscape.png") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logo{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+#flex-container{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 80%;
+	height: 100vh;
+	margin: auto;
+}
+.header{
+	width: 60%;
+}
+h1{
+	margin: 10% auto 0 auto;
+	color: #fff;
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+	font-size: 10vw;
+	color: lightyellow;
+	text-shadow: rgb(161 209 194) -5px 6px 20px;
+}
+.logo{
+	display: block;
+	margin: auto;
+	height: auto;
+	width: 50%;
+	min-width: 100px;
+}
+#links ul{
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+	margin: auto;
+}
+#links ul li{
+	display: inline-block;
+	color: #ffffe0;
+	padding: 10px 20px;
+	font-family: 'Cousine', monospace;
+	font-size: 2em;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+#links a{
+	color: #ffffe0;
+	text-decoration: none;
+}
+#links a:hover{
+	color: lightpink;
+	transform: scale(1.5);
+}
+#links ul li:hover{
+	color: lightpink;
+	transform: scale(1.5);
+}
+.content{
+	height: 20%;
+	width: 100%;
+	background-color: white;
+}
+#social{
+	width: 50%;
+	margin: 0 auto 3em auto;
+	align-items: center;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+.socialIcon{
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+    transition-duration: 0.8s;
+	transition-property: transform;
+}
+.socialIcon:hover{
+	height: 50px;
+	width: 50px;
+	transform: rotate(360deg) scale(1.5);
+}
